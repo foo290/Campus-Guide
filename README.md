@@ -40,3 +40,8 @@ The software is completely build using python for backend and for frontend as we
 * Tkinter for frontend
 * Python as backend
 * SQLite for database management
+
+
+```
+The code might be a little messy as i was learning at that time.
+```
