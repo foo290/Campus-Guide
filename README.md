@@ -2,7 +2,7 @@
 College Management Software
 
 ## Runtime 
-Campus Guide is the folder which contains all the subdirectory and all database file, images and icons which should be in the same directory in which all the main scripts.
+The folder named "Campus Guide" which contains all the subdirectory and all database file, images and icons which should be in the same directory in which all the main scripts.
 simply run frontend.py file :
 
 ```
@@ -18,7 +18,7 @@ tkcalendar==1.6.1
 ```
 
 ## Description
-Campus guide is the software for college management software which i build for my college minor project. It has admin, Student and faculty members login system and each member is specified by their respectivve rights.
+Campus guide is a college management software which i build for my college minor project. It has admin, Student and faculty members login system and each member is specified by their respectivve rights.
 * Like for Admin has the full control over the system.
 * Faculty members can fill the attendance of the students of assigned branches and can upload the study material.
 * Students can access their profile and check their attendance of diffrent subjects and know how many classes they have to take to compennciate the minimum attndance criteria.
