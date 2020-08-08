@@ -1,0 +1,15 @@
+.idea/
+*.pyc
+build/
+dist/
+venv/
+CampusGuide/softwaredependencies/desktop.ini
+CampusGuide/desktop.ini
+CampusGuide/database/sqldata/desktop.ini
+CampusGuide/database/sqldata/databaseconfigurationfiles/desktop.ini
+CampusGuide/database/sqldata/databaseconfigurationfiles/ACCESS_NOT_RECOMENDED/faculty_data_warehouse-Untouch/desktop.ini
+CampusGuide/database/sqldata/databaseconfigurationfiles/ACCESS_NOT_RECOMENDED/desktop.ini
+CampusGuide/database/sqldata/databaseconfigurationfiles/ACCESS_NOT_RECOMENDED/ADMIN-Untouch/desktop.ini
+CampusGuide/database/desktop.ini
+CampusGuide/database/sqldata/databaseconfigurationfiles/ACCESS_NOT_RECOMENDED/library_data_warehouse-Untouch/desktop.ini
+CampusGuide/database/sqldata/databaseconfigurationfiles/ACCESS_NOT_RECOMENDED/student_data_warehouse-Untouch/desktop.ini

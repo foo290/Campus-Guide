@@ -1,0 +1,11 @@
+ACCESS TO ANY USER IS NOT RECOMMENDED:
+
+ There is no point to access this folder if software is working fine!
+ Further directory contains a complex directory structure which stores usefull
+ data to keep all services of software running. Accessing is not recommended!
+
+NOTE : ANY CHANGES MAY LEAD TO A MALFUNCTION OR DIRECTORY FAILURE
+
+RECOMMENDED : CLOSE THE DIRECTORY!
+
+IN_CASE OF MALFUNCTION CONTACT THE DEVELOPMENT TEAM OF CAMPUS GUIDE !
