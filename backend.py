@@ -399,15 +399,8 @@ class Fee:
     def fee_pannel(self,frameno,intro,windowname):
         #---------objects--------
         self.globalobj=Mainframe2()
-        self.obj1=Mainframe2()
-        self.obj2=Mainframe2()
-        self.obj3=Mainframe2()
-        self.obj4=Mainframe2()
-        self.obj5=Mainframe2()
-        self.obj6=Mainframe2()
-        self.obj7=Mainframe2()
-        self.obj8=Mainframe2()
-
+        self.obj1, self.obj2, self.obj3, self.obj4, self.obj5, self.obj6, self.obj7, self.obj8 = [Mainframe2() for _ in range(8)]
+        
         #===========================================    scrollable area and tree view   ====================================================
 
         from tkinter.ttk import Treeview
@@ -575,34 +568,7 @@ def newstudent():
     # Objects of Mainframe
     wobjGlobal = Mainframe2()
 
-    wobj1 = Mainframe2()
-    wobj2 = Mainframe2()
-    wobj3 = Mainframe2()
-    wobj4 = Mainframe2()
-    wobj5 = Mainframe2()
-    wobj6 = Mainframe2()
-    wobj7 = Mainframe2()
-    wobj8 = Mainframe2()
-    wobj9 = Mainframe2()
-    wobj10 = Mainframe2()
-    wobj13 = Mainframe2()
-    wobj14 = Mainframe2()
-    wobj15 = Mainframe2()
-    wobj16 = Mainframe2()
-    wobj17 = Mainframe2()
-    wobj18 = Mainframe2()
-    wobj19 = Mainframe2()
-    wobj20 = Mainframe2()
-    wobj23 = Mainframe2()
-    wobj24 = Mainframe2()
-    wobj25 = Mainframe2()
-    wobj26 = Mainframe2()
-    wobj27 = Mainframe2()
-    wobj28 = Mainframe2()
-    wobj29 = Mainframe2()
-    wobj30 = Mainframe2()
-
-    #---------------------------------DIVIDERS----------------------
+    wobj1, wobj2, wobj3, wobj4, wobj5, wobj6, wobj7, wobj8, wobj9, wobj10, wobj13, wobj14, wobj15, wobj16, wobj17, wobj18, wobj19, wobj20, wobj23, wobj24, wobj25, wobj26, wobj27, wobj28, wobj29, wobj30 = [Mainframe2() for _ in range(30)]  #---------------------------------DIVIDERS----------------------
 
     holderframe=wobjGlobal.customframes(win,850,720,'green',0,0)
     scrollablecan=Canvas(holderframe,width=1355,height=720)
@@ -1457,24 +1423,8 @@ def newemployee():
 
     # Objects of Mainframe
     wobjGlobal = Mainframe2()
-    wfobj1 = Mainframe2()
-    wfobj2 = Mainframe2()
-    wfobj3 = Mainframe2()
-    wfobj4 = Mainframe2()
-    wfobj5 = Mainframe2()
-    wfobj6 = Mainframe2()
-    wfobj7 = Mainframe2()
-    wfobj10 = Mainframe2()
-    wfobj11 = Mainframe2()
-    wfobj12 = Mainframe2()
-    wfobj13 = Mainframe2()
-    wfobj14 = Mainframe2()
-    wfobj15 = Mainframe2()
-    wfobj16 = Mainframe2()
-    wfobj17 = Mainframe2()
-    wfobj18 = Mainframe2()
-    wfobj19 = Mainframe2()
-
+    wfobj1, wfobj2, wfobj3, wfobj4, wfobj5, wfobj6, wfobj7, wfobj10, wfobj11, wfobj12, wfobj13, wfobj14, wfobj15, wfobj16, wfobj17, wfobj18, wfobj19 = [Mainframe2() for _ in range(19)]
+    
     #---------------------------------DIVIDERS----------------------
 
     holderframe=wobjGlobal.customframes(win,850,720,'green',0,0)
@@ -1815,24 +1765,8 @@ def showdataoffaculty(table):
 
         # Objects of Mainframe
         wobjGlobal = Mainframe2()
-        wfobju1 = Mainframe2()
-        wfobju2 = Mainframe2()
-        wfobju3 = Mainframe2()
-        wfobju4 = Mainframe2()
-        wfobju5 = Mainframe2()
-        wfobju6 = Mainframe2()
-        wfobju7 = Mainframe2()
-        wfobju10 = Mainframe2()
-        wfobju11 = Mainframe2()
-        wfobju12 = Mainframe2()
-        wfobju13 = Mainframe2()
-        wfobju14 = Mainframe2()
-        wfobju15 = Mainframe2()
-        wfobju16 = Mainframe2()
-        wfobju17 = Mainframe2()
-        wfobju18 = Mainframe2()
-        wfobju19 = Mainframe2()
-
+        wfobju1, wfobju2, wfobju3, wfobju4, wfobju5, wfobju6, wfobju7, wfobju10, wfobju11, wfobju12, wfobju13, wfobju14, wfobju15, wfobju16, wfobju17, wfobju18, wfobju19 = [Mainframe2() for _ in range(19)]
+        
         # ---------------------------------DIVIDERS----------------------
 
         holderframe1 = wobjGlobal.customframes(win, 850, 720, 'green', 0, 0)
@@ -2257,34 +2191,8 @@ def showdat(table):
             # Objects of Mainframe
             wobjGlobal = Mainframe2()
 
-            wobj1 = Mainframe2()
-            wobj2 = Mainframe2()
-            wobj3 = Mainframe2()
-            wobj4 = Mainframe2()
-            wobj5 = Mainframe2()
-            wobj6 = Mainframe2()
-            wobj7 = Mainframe2()
-            wobj8 = Mainframe2()
-            wobj9 = Mainframe2()
-            wobj10 = Mainframe2()
-            wobj13 = Mainframe2()
-            wobj14 = Mainframe2()
-            wobj15 = Mainframe2()
-            wobj16 = Mainframe2()
-            wobj17 = Mainframe2()
-            wobj18 = Mainframe2()
-            wobj19 = Mainframe2()
-            wobj20 = Mainframe2()
-            wobj23 = Mainframe2()
-            wobj24 = Mainframe2()
-            wobj25 = Mainframe2()
-            wobj26 = Mainframe2()
-            wobj27 = Mainframe2()
-            wobj28 = Mainframe2()
-            wobj30 = Mainframe2()
-            wobj31 = Mainframe2()
-            wobj32 = Mainframe2()
-
+            wobj1, wobj2, wobj3, wobj4, wobj5, wobj6, wobj7, wobj8, wobj9, wobj10, wobj13,  wobj14,  wobj15,  wobj16,  wobj17,  wobj18,  wobj19,  wobj20,  wobj23,  wobj24,  wobj25,  wobj26,  wobj27,  wobj28,  wobj30,  wobj31,  wobj32 = [Mainframe2() for _ in range(32)]
+            
             # ---------------------------------DIVIDERS----------------------
 
             holderframe = wobjGlobal.customframes(win, 850, 720, 'green', 0, 0)
@@ -2833,17 +2741,9 @@ class FacultyView:
 
         #---------objects--------
         self.globalobj=Mainframe2()
-        self.obj1=Mainframe2()
-        self.obj2=Mainframe2()
-        self.obj3=Mainframe2()
-        self.obj4=Mainframe2()
-        self.obj5=Mainframe2()
-        self.obj6=Mainframe2()
-        self.obj7=Mainframe2()
-        self.obj8=Mainframe2()
-
-
-        #===========================================    scrollable area and tree view   ====================================================
+        self.obj1,self.obj2,self.obj3,self.obj4,self.obj5,self.obj6,self.obj7,self.obj8 = [Mainframe2() for _ in range(8)]
+        
+         #===========================================    scrollable area and tree view   ====================================================
 
         from tkinter.ttk import Treeview
 

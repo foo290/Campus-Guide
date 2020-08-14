@@ -40,33 +40,7 @@ def students_panel(account_type,student,imagename,un,pw,butlist):
 
     #--------objects of mainframe-------
     sglobalobj=Mainframe2()
-    sobj1=Mainframe2()
-    sobj2=Mainframe2()
-    sobj3=Mainframe2()
-    sobj4=Mainframe2()
-    sobj5=Mainframe2()
-    sobj6=Mainframe2()
-    sobj7=Mainframe2()
-    sobj8=Mainframe2()
-    sobj9=Mainframe2()
-    sobj10=Mainframe2()
-    sobj11=Mainframe2()
-    sobj12=Mainframe2()
-    sobj13=Mainframe2()
-    sobj14=Mainframe2()
-    sobj15=Mainframe2()
-    sobj16=Mainframe2()
-    sobj17=Mainframe2()
-    sobj18=Mainframe2()
-    sobj19=Mainframe2()
-    sobj20=Mainframe2()
-    sobj21=Mainframe2()
-    sobj22=Mainframe2()
-    sobj23=Mainframe2()
-
-
-
-
+    sobj1, sobj2, sobj3, sobj4, sobj5, sobj6, sobj7, sobj8, sobj9, sobj10, sobj11, sobj12, sobj13, sobj14, sobj15, sobj16, sobj17, sobj18, sobj19, sobj20, sobj21, sobj22, sobj23 = [Mainframe2() for _ in range(23)]
     #-----------------------------------
 
     #========MAIN CANVAS================
