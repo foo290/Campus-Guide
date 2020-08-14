@@ -15,45 +15,12 @@ def students_panel(account_type,student,imagename,un,pw,butlist):
 
 
     if account_type=='student':
-        name=student[0]
-        surname=student[1]
-        rollno=student[2]
-        course=student[3]
-        branch=student[4]
-        year=student[5]
-        sem=student[6]
-        father=student[7]
-        mother=student[8]
-        pcontact=student[9]
-        dob=student[10]
-        phone=student[11]
-        email=student[12]
-        city=student[14]
-        pincode=student[15]
-        adharno=student[16]
-        dor=student[17]
-        batch=student[18]
-        gender=student[19]
-        fee=student[20]
-        trans=student[21]
-        address=student[22]
+        name,  surname, rollno, course, branch, year, sem, father, mother, pcontact, dob, phone, email, _,city, pincode, adharno, dor,batch, gender,  fee, trans, address=student[0]
+
+       
     else:
-        nameoffac=student[0]
-        surnameoffac=student[1]
-        empid=student[2]
-        factitle=student[3]
-        facdepart=student[4]
-        facph1=student[5]
-        facph2=student[6]
-        facdob=student[7]
-        facgender=student[8]
-        facemail=student[9]
-        facsal=student[10]
-        faccountry=student[11]
-        faccity=student[12]
-        facpincode=student[13]
-        facadhaar=student[14]
-        facaddress=student[15]
+        nameoffac, surnameoffac, empid, factitle, facdepart,  facph1, facph2, facdob, facgender,   facemail, facsal, faccountry, faccity,facpincode, facadhaar,facaddress=student[0]  
+ 
 #--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
         if factitle=='Librarian':
             library('stupan')
